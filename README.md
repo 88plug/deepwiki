@@ -33,7 +33,7 @@ The MCP server lets the agent query it programmatically.
 ## What this plugin is, and what it isn't
 
 **Is:** a 30-line plugin manifest that registers the remote MCP endpoint
-hosted by Cognition AI at `https://mcp.deepwiki.com/sse`. Zero original
+hosted by Cognition AI at `https://mcp.deepwiki.com/mcp`. Zero original
 business logic.
 
 **Is not:** the DeepWiki service itself. The actual indexing, the LLM, and
