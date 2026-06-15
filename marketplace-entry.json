@@ -1,0 +1,18 @@
+{
+  "name": "deepwiki",
+  "source": {
+    "source": "github",
+    "repo": "88plug/deepwiki"
+  },
+  "description": "Talk to any public GitHub repo's auto-generated documentation via Cognition's hosted DeepWiki MCP. Read-only research into codebases without cloning. Note: this plugin wraps a remote MCP server hosted by Cognition AI at mcp.deepwiki.com; 88plug does not operate the underlying service.",
+  "category": "research",
+  "tags": [
+    "type:mcp",
+    "deepwiki",
+    "documentation",
+    "github",
+    "research",
+    "mcp"
+  ],
+  "homepage": "https://github.com/88plug/deepwiki"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "deepwiki",
+  "description": "Talk to any public GitHub repo's auto-generated documentation via Cognition's hosted DeepWiki MCP. Read-only research into codebases without cloning. Note: this",
+  "owner": {
+    "name": "88plug",
+    "email": "andrew@88plug.com"
+  },
+  "plugins": [
+    {
+      "name": "deepwiki",
+      "source": ".",
+      "displayName": "DeepWiki",
+      "description": "Talk to any public GitHub repo's auto-generated documentation via Cognition's hosted DeepWiki MCP. Read-only research into codebases without cloning. Note: this plugin wraps a remote MCP server hosted by Cognition AI at mcp.deepwiki.com; 88plug does not operate the underlying service.",
+      "author": {
+        "name": "88plug",
+        "email": "andrew@88plug.com"
+      },
+      "homepage": "https://github.com/88plug/deepwiki",
+      "license": "FSL-1.1-ALv2",
+      "category": "research",
+      "tags": [
+        "type:mcp",
+        "deepwiki",
+        "documentation",
+        "github",
+        "research",
+        "mcp"
+      ]
+    }
+  ]
+}
