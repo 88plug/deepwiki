@@ -2,6 +2,8 @@
 
 # DeepWiki
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/88plug/deepwiki)
+
 Read any public GitHub repo's auto-generated documentation from inside Claude Code — no cloning, no API key.
 
 [![plugin-validate](https://github.com/88plug/deepwiki/actions/workflows/plugin-validate.yml/badge.svg)](https://github.com/88plug/deepwiki/actions/workflows/plugin-validate.yml)
