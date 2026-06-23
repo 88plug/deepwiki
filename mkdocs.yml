@@ -1,5 +1,9 @@
 site_name: DeepWiki
 site_description: Read any public GitHub repo's auto-generated documentation from inside Claude Code — no cloning, no API key.
+site_url: https://88plug.github.io/deepwiki/
+repo_url: https://github.com/88plug/deepwiki
+repo_name: 88plug/deepwiki
+edit_uri: edit/main/docs/
 use_directory_urls: true
 
 theme:
@@ -26,6 +30,7 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - def_list
   - footnotes
   - tables
