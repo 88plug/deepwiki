@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "deepwiki",
   "displayName": "DeepWiki",
-  "version": "2026.6.23",
   "description": "Talk to any public GitHub repo's auto-generated documentation via Cognition's hosted DeepWiki MCP. Read-only research into codebases without cloning. Note: this plugin wraps a remote MCP server hosted by Cognition AI at mcp.deepwiki.com; 88plug does not operate the underlying service.",
   "author": {
     "name": "88plug",
