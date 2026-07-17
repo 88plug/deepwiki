@@ -46,18 +46,23 @@ Any public repo at `github.com/<owner>/<repo>` is reachable. DeepWiki indexes it
 
 ## Features
 
-- One-command install through the 88plug marketplace.
-- No API key, no local process, no manual MCP config.
-- Read-only by design — the agent reads docs and asks questions, nothing more.
-- Works against any public GitHub repository.
+| Feature | Detail |
+| --- | --- |
+| Marketplace install | One command via the [88plug marketplace](https://github.com/88plug/claude-code-plugins) |
+| No API key | No local process, no manual MCP config |
+| Remote MCP | Connects to `https://mcp.deepwiki.com/mcp` over HTTP |
+| Read-only | The agent reads docs and asks questions — nothing more |
+| Any public GitHub repo | Works against `github.com/<owner>/<repo>` |
 
 ## MCP tools
 
-The plugin exposes one MCP connection named `deepwiki` with these tools:
+The plugin exposes one MCP connection named `deepwiki`:
 
-- `read_wiki_structure` — list the auto-generated documentation pages for a repository.
-- `read_wiki_contents` — fetch the full documentation for a repository.
-- `ask_question` — ask a natural-language question about a repository and get an AI-generated answer.
+| Tool | What it does |
+| --- | --- |
+| `read_wiki_structure` | List the auto-generated documentation pages for a repository |
+| `read_wiki_contents` | Fetch the full documentation for a repository |
+| `ask_question` | Ask a natural-language question about a repository and get an AI-generated answer |
 
 You normally do not call these by hand. Mention `deepwiki` or a repository in your prompt and the agent selects the right tool.
 
