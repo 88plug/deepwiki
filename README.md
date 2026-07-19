@@ -19,6 +19,14 @@ Claude Code plugin for DeepWiki MCP — chat with any public GitHub repo's auto-
 /plugin install deepwiki@88plug
 ```
 
+### Grok Build
+
+```text
+grok plugin marketplace add 88plug/claude-code-plugins
+grok plugin install deepwiki@88plug --trust
+```
+
+
 No API key, no local MCP server, no config file. The Claude Code plugin registers Cognition AI's remote DeepWiki MCP endpoint; Claude Code connects over HTTP.
 
 ## Quickstart

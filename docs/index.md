@@ -16,6 +16,14 @@ From the 88plug marketplace (inside Claude Code):
 /plugin install deepwiki@88plug
 ```
 
+### Grok Build
+
+```text
+grok plugin marketplace add 88plug/claude-code-plugins
+grok plugin install deepwiki@88plug --trust
+```
+
+
 !!! tip
     That is the whole setup. No API key, no local server, no MCP config file.
     The plugin registers Cognition AI's remote MCP endpoint; Claude Code connects
