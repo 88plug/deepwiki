@@ -6,6 +6,7 @@ Read any public GitHub repo's auto-generated documentation from inside Claude Co
 [![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-blue?style=flat)](https://github.com/88plug/deepwiki/blob/main/LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-8A2BE2?style=flat)](https://github.com/88plug/claude-code-plugins)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/88plug/deepwiki)
+[![Docs](https://img.shields.io/badge/docs-online-blue?style=flat)](https://88plug.github.io/deepwiki/)
 
 ## Install
 
@@ -110,3 +111,17 @@ You may use, copy, modify, and redistribute it for any purpose except a Competin
 Use. Each released version converts to the Apache License 2.0 on the second
 anniversary of its release date. For commercial-use inquiries outside the
 Permitted Purpose, contact andrew@88plug.com.
+
+## Development
+
+Local checkout is only needed if you are changing the plugin packaging:
+
+```bash
+git clone https://github.com/88plug/deepwiki.git
+cd deepwiki
+claude --plugin-dir "$PWD"
+```
+
+The live MCP URL is pinned in [`.claude-plugin/plugin.json`](https://github.com/88plug/deepwiki/blob/main/.claude-plugin/plugin.json) (`type: http`, `https://mcp.deepwiki.com/mcp`). See [tests/smoke.sh](https://github.com/88plug/deepwiki/blob/main/tests/smoke.sh) for the smoke checks that guard that URL and the marketplace entry shape.
+
+Online docs: [88plug.github.io/deepwiki](https://88plug.github.io/deepwiki/).
