@@ -1,6 +1,6 @@
 # DeepWiki
 
-Read any public GitHub repo's auto-generated documentation from inside Claude Code — no cloning, no API key.
+DeepWiki MCP for Claude Code & Grok — chat with any public GitHub repo's auto-generated documentation, wiki pages, and Q&A without cloning.
 
 [![plugin-validate](https://github.com/88plug/deepwiki/actions/workflows/plugin-validate.yml/badge.svg)](https://github.com/88plug/deepwiki/actions/workflows/plugin-validate.yml)
 [![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-blue?style=flat)](https://github.com/88plug/deepwiki/blob/main/LICENSE)
@@ -10,9 +10,9 @@ Read any public GitHub repo's auto-generated documentation from inside Claude Co
 
 ## Install
 
-From the 88plug marketplace (inside Claude Code):
+### Claude Code
 
-```sh
+```text
 /plugin marketplace add 88plug/claude-code-plugins
 /plugin install deepwiki@88plug
 ```
@@ -24,11 +24,10 @@ grok plugin marketplace add 88plug/claude-code-plugins
 grok plugin install deepwiki@88plug --trust
 ```
 
-
 !!! tip
     That is the whole setup. No API key, no local server, no MCP config file.
-    The plugin registers Cognition AI's remote MCP endpoint; Claude Code connects
-    over HTTP.
+    The plugin registers Cognition AI's remote MCP endpoint; Claude Code and Grok
+    connect over HTTP.
 
 ## Quickstart
 

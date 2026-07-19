@@ -1,5 +1,5 @@
 site_name: DeepWiki
-site_description: 'Claude Code plugin for DeepWiki MCP — chat with any public GitHub repo''s auto-generated documentation, wiki pages, and Q&A without cloning.'
+site_description: 'DeepWiki MCP for Claude Code & Grok — chat with any public GitHub repo''s auto-generated documentation, wiki pages, and Q&A without cloning.'
 site_url: https://88plug.github.io/deepwiki/
 repo_url: https://github.com/88plug/deepwiki
 repo_name: 88plug/deepwiki
