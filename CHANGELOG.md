@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Keywords: add required `claude-skills`; drop `cognition` (still 20; MCP trio retained).
+- Smoke asserts required keyword set (`claude-code-plugin`, `claude-skills`, MCP trio).
 - Smoke pins the live MCP URL (`type=http` + `https://mcp.deepwiki.com/mcp`) and the marketplace-entry `url` source shape so the historical `/sse` 410 regression cannot land unnoticed.
 - README features / MCP tools tables aligned with the docs site.
 

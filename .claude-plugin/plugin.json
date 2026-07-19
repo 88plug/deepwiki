@@ -22,6 +22,7 @@
     "automation",
     "cli",
     "claude-code-plugin",
+    "claude-skills",
     "mcp",
     "mcp-server",
     "model-context-protocol",
@@ -29,7 +30,6 @@
     "documentation",
     "github",
     "research",
-    "cognition",
     "codebase"
   ],
   "mcpServers": {

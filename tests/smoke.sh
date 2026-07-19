@@ -25,7 +25,16 @@ assert srv.get("type") == "http", "deepwiki server must be type http (not sse)"
 assert srv.get("url") == "$EXPECTED_MCP_URL", (
     f"deepwiki url must be exactly $EXPECTED_MCP_URL, got {srv.get('url')!r}"
 )
-assert len(m.get("keywords", [])) == 20, "keywords must be exactly 20"
+kw = m.get("keywords", [])
+assert len(kw) == 20, "keywords must be exactly 20"
+for req in (
+    "claude-code-plugin",
+    "claude-skills",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+):
+    assert req in kw, f"keywords missing required {req!r}"
 print("  ok: deepwiki http MCP server registered at $EXPECTED_MCP_URL")
 PYEOF
 
